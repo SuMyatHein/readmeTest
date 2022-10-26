@@ -41,8 +41,8 @@ Click New => create new database : edogawa_testdb
 
 #### Method 2 (New Database)
 1.Database Table Migrate
-		`python manage.py migrate`
-		`python manage.py makemigrations`
+		```python manage.py migrate```
+		```python manage.py makemigrations```
 		
 2.Run script to load outputsimilar.csv data
 		`python manage.py runscript load_outputsimilar`
