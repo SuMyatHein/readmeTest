@@ -35,7 +35,7 @@ Click New => create new database : edogawa_testdb
         	'PASSWORD':'',
         	'HOST':'localhost',
         	'PORT': '3306',
-    	}
+    		}
 	}
 ```
 
