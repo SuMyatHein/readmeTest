@@ -17,6 +17,7 @@
 
 #### Database Table Migrate
     python manage.py migrate
+####
     python manage.py makemigrations
 
 #### Run script to load outputsimilar.csv data
