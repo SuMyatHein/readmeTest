@@ -45,7 +45,7 @@ Click New => create new database : edogawa_testdb
 	python manage.py runscript load_outputsimilar
 
 3)	Create Superuser
-	python manage.py createsuperuser
+	`python manage.py createsuperuser`
 
 #### Run
     python manage.py runserver
