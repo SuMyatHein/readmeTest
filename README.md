@@ -1,2 +1,1 @@
-#To run django project:
-
+#To run django project
