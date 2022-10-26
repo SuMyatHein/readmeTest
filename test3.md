@@ -1,4 +1,4 @@
-# To run django project:
+# To Run Django Project:
 #### Git Clone
     git clone https://github.com/WPPM/Django.git
 (or)
