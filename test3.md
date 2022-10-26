@@ -48,10 +48,12 @@ Click New => create new database : edogawa_testdb
 	python manage.py makemigrations
 		
 2.Run script to load outputsimilar.csv data
-	`python manage.py runscript load_outputsimilar`
+####
+	python manage.py runscript load_outputsimilar
 
 3.Create Superuser
-	`python manage.py createsuperuser`
+####
+	python manage.py createsuperuser
 
 #### Run
     python manage.py runserver
