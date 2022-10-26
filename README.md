@@ -1,5 +1,5 @@
 #To run django project:
-####Git Clone
+##Git Clone
     git clone https://github.com/WPPM/Django.git
     cd django
 ####Create Virtual Environment
