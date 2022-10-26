@@ -23,7 +23,7 @@
 Click New => create new database : edogawa_testdb
 
 #### Method 1 (Data will be the same previous database as user, uploaded data and outputsimilar data)
-1.Import SQL files.
+1.Import django.sql file.
 
 2.Change database name in edogawachildabuse>>settings.py: 
 ```
