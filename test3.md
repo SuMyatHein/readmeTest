@@ -1,21 +1,23 @@
 # To run django project:
 #### Git Clone
-git clone https://github.com/WPPM/Django.git
+    git clone https://github.com/WPPM/Django.git
 (or)
-git clone https://github.com/SuMyatHein/csvdjango.git
-cd django
+####
+    git clone https://github.com/SuMyatHein/csvdjango.git
+####
+    cd django
 
 #### Create Virtual Environment
-py -m venv .venv
+    py -m venv .venv
 
 #### Activate Virtual Environment
-.venv\scripts\activate
+    .venv\scripts\activate
 
 #### Install Modules
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 #### Run
-python manage.py runserver
+    python manage.py runserver
 
 #### To create mysql database using xampp:
 Click New => create new database : edogawa_testdb
@@ -46,7 +48,7 @@ Click New => create new database : edogawa_testdb
 	python manage.py createsuperuser
 
 #### Run
-python manage.py runserver
+    python manage.py runserver
 
 
 
