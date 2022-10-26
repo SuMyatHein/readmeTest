@@ -24,7 +24,9 @@ Click New => create new database : edogawa_testdb
 
 #### Method 1 (Data will be the same previous database as user, uploaded data and outputsimilar data)
 1.Import SQL files.
+
 2.Change database name in edogawachildabuse>>settings.py: 
+```
 	DATABASES = {
     	'default': {
        	'ENGINE': 'django.db.backends.mysql',
@@ -35,6 +37,7 @@ Click New => create new database : edogawa_testdb
         	'PORT': '3306',
     	}
 	}
+```
 
 #### Method 2 (New Database)
 1.Database Table Migrate
