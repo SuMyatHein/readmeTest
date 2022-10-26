@@ -16,9 +16,6 @@
 #### Install Modules
     pip install -r requirements.txt
 
-#### Run
-    python manage.py runserver
-
 #### To create mysql database using xampp:
 Click New => create new database : edogawa_testdb
 
