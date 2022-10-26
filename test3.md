@@ -1,11 +1,14 @@
 # To Run Django Project:
 #### Git Clone
     git clone https://github.com/WPPM/Django.git
+####
+    cd django
 (or)
 ####
     git clone https://github.com/SuMyatHein/csvdjango.git
 ####
-    cd django
+    cd csvdjango
+
 
 #### Create Virtual Environment
     py -m venv .venv
