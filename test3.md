@@ -23,8 +23,8 @@
 Click New => create new database : edogawa_testdb
 
 #### Method 1 (Data will be the same previous database as user, uploaded data and outputsimilar data)
-1)	Import SQL files.
-2)	Change database name in edogawachildabuse>>settings.py: 
+1.Import SQL files.
+2.Change database name in edogawachildabuse>>settings.py: 
 	DATABASES = {
     	'default': {
        	'ENGINE': 'django.db.backends.mysql',
@@ -37,14 +37,13 @@ Click New => create new database : edogawa_testdb
 	}
 
 #### Method 2 (New Database)
-1)	Database Table Migrate
+1.Database Table Migrate
 		`python manage.py migrate`
 		`python manage.py makemigrations`
-
-2)	Run script to load outputsimilar.csv data
+2.Run script to load outputsimilar.csv data
 		`python manage.py runscript load_outputsimilar`
 
-3)	Create Superuser
+3.Create Superuser
 		`python manage.py createsuperuser`
 
 #### Run
