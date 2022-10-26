@@ -41,9 +41,11 @@ Click New => create new database : edogawa_testdb
 
 #### Method 2 (New Database)
 1.Database Table Migrate
+####
 		```
 		python manage.py migrate
 		```
+####
 		```
 		python manage.py makemigrations
 		```
